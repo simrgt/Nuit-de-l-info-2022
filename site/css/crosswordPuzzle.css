@@ -1,0 +1,57 @@
+#cross{
+	text-align: center;
+	width:10%;
+	height:10%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+}
+#buttons{
+	width:30%;
+	float: right;
+}
+tr{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+td{
+	height: 10%;
+	width: 10%;
+}
+#leftBox{
+	float: left;
+}
+#rightBox{
+	float: left;
+	clear:left;
+}
+.butt{
+	height:10%;
+	width: 10%;
+}
+#puzzel{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.inputBox{
+		width: 10%;
+		height:10%;
+		border: 1px solid black;
+		text-align: center;
+}
+#hintsTable{
+	width: 480px;
+	float: left;
+	clear: left;
+}
+div-container{
+  width: 1000px;
+  height:1000px;
+}

@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2EB872;
+    --primary: #cf3030;
     --light: #F3F4F5;
     --dark: #282F34;
 }
@@ -197,7 +197,7 @@
     width: 0;
     height: 0;
     left: -1px;
-    border-left: 16px solid var(--primary);
+    border-left: 16px solid #cf3030;
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
 }
@@ -304,8 +304,8 @@
 }
 
 .header-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: #cf3030;
+    border-color: #cf3030;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -519,7 +519,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/bg-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
     background-size: cover;
 }
 
@@ -566,7 +566,7 @@
 }
 
 .footer .copyright {
-    padding: 25px 0;
+/*     padding: 25px 0; */
     font-size: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
@@ -577,4 +577,56 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+#cross{
+	text-align: center;
+	width:30px;
+	height:30px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+#buttons{
+	width:30%;
+	float: right;
+}
+tr{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+td{
+	height: 30px;
+	width: 30px;
+}
+#leftBox{
+	float: left;
+}
+#rightBox{
+	float: left;
+	clear:left;
+}
+.butt{
+	height:50px;
+	width: 107px;
+}
+#puzzel{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.inputBox{
+		width: 40px;
+		height:40px;
+		border: 1px solid black;
+		text-align: center;
+}
+#hintsTable{
+	width: 480px;
+	float: left;
+	clear: left;
 }
