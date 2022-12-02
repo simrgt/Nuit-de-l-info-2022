@@ -1,0 +1,113 @@
+.containeur{
+	width: 100%;
+	height: 100vh;
+	background:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.btn{
+	padding: 10px 60px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 22px;
+	font-weight: 500;
+	border-radius: 30px;
+}
+
+
+.popup{
+	width:400px;
+	background:rgb(213, 206, 206);
+	border-radius:6px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align:center;
+	padding: 0 30px 30px;
+	color: blue;
+	transition: transform 0.4s, top 0.4s;
+	visibility: hidden;
+}
+.popup img{
+	width: 100px;
+	margin-top :-50px;
+	border-radius:50%;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#emote2{
+	width:200px;
+}
+
+.popup h2{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px;
+}
+
+.popup button{
+	width: 100%;
+	margin-top:50px;
+	padding:10px 0;
+	background: white;
+	color:blue;
+	border:0;
+	outline:none;
+	font-size:18px;
+	border-radius:4px;
+	cursor:pointer;
+}
+
+.popup h2{
+	color:black;
+}
+
+.popup h1{
+	color:#eff0f0;
+}
+
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+
+.login{
+	width:400px;
+	background:blue;
+	border-radius:6px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align:center;
+	padding: 0 30px 30px;
+	color: blue;
+	transition: transform 0.4s, top 0.4s;
+	visibility: hidden;
+}
+
+.open-log{
+	visibility: visible;
+	top:50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

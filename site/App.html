@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="App.css" rel="stylesheet" />
+    <script src="App.js" defer></script>
+    <title>Test</title>
+  </head>
+  <body>
+    <div id="mouse">
+    
+      <script src="musique.js"></script>
+    <audio id="bloc_son" preload="none">
+      <source src="retrovision-puzzle-low-quality-ncs-low-quality-music.mp3" type="audio/mp3" />
+    </audio>
+    <img id="squelette"src="https://media.tenor.com/xWPaojwX8g0AAAAM/skeleton-meme.gif" onmouseover="lancer_son()"  />
+    <script>
+      function lancer_son(){
+      var audio = document.getElementById('bloc_son');
+      audio.volume = 1;
+      audio.play();
+}
+      
+
+    </script>
+    </div>
+    
+  </body>
+</html>

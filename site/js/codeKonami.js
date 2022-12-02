@@ -3,7 +3,7 @@ n = 0;
 $(document).keydown(function (e) {
     if (e.keyCode === k[n++]) {
         if (n === k.length) {
-            window.location.href = "./contact.html";
+            window.location.href = "./site.html";
             n = 0;
             return false;
         }

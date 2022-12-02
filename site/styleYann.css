@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: rgb(252,254,252);
+background: linear-gradient(176deg, rgba(252,254,252,1) 0%, rgba(32,217,181,1) 7%, rgba(252,254,252,1) 13%, rgba(144,154,60,1) 23%, rgba(102,8,223,1) 29%, rgba(253,254,252,1) 52%, rgba(175,230,121,1) 56%, rgba(253,254,252,1) 64%, rgba(170,61,74,1) 70%, rgba(253,254,252,1) 73%, rgba(235,68,68,1) 77%, rgba(254,254,252,1) 83%, rgba(38,179,219,1) 89%, rgba(254,254,252,1) 98%);
+}
+/*----------------------------------------------------*/
+nav p{
+    color:#8e1010;
+    font-size:6rem;
+    position: relative;
+    animation: mymove 4s infinite;
+    animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes mymove{
+    0% {
+    left: 0px;
+    }
+    50%{
+        left: 1920px;
+
+    }
+    100%{
+    left: 0px;
+
+    }
+    }
+/*--------------------------------------------------------------------*/
+
+#container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#cercle{
+    margin-top: 15rem;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-image: url('multimédia/chien.png');
+    background-position:-50px;
+    transition: 1s;
+    align-self: center;
+}
+#cercle:hover{
+    transition: 0.5s;
+    scale: 6;
+    transform: rotate(360deg);
+    animation-timing-function: ease-in-out;
+}
+
+
+
+#mur_gif{
+    z-index: -80;
+    top: -2000px;
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    background-image: url('multimédia/heheheha-clash.gif');
+    background-repeat: repeat;
+    opacity: 0.5;
+    background-clip: unset;
+    background-size: 250px;
+    animation: MurGif 0.2s infinite;
+}
+
+
+@keyframes MurGif{
+    from{
+        top: -2000px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+
+#clignotant{
+    margin: 1rem;
+    font-size: 5rem;
+    color: red;
+    background-color: white;
+    animation: Clignotement 0.2s infinite;
+
+}
+@keyframes Clignotement{
+    from{
+        color: red;
+        background-color: white;
+    }
+    50%{
+        color: white;
+        background-color: red;
+    }
+    to{
+        color:red;
+        background-color: white;
+    }
+}
+
+.ak{
+    position: fixed;
+    top: 200px;
+    right: -800px;
+    rotate: 50deg;
+    scale: 0.5;
+}
+dl{
+    color: green;
+}
+

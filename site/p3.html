@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport", content="width=device-width, initial-scale=1.0">
+		<title>Woho</title>
+		<link rel="stylesheet" href="css/styleZI.css">
+	</head>
+	
+	<body>
+		<div class="containeur">
+			<button type="submit" class="btn" onclick="openPopup()">OClick laaa</button>
+			<div class="popup" id="popup">
+				<img src="img/sida.png">
+				<img src="img/ok.png" id="emote2">
+				<h2>Bravo vous venez de gagner Un ESsay Grato PoUr gagner de l'argent!!!!!</h2>
+				
+				
+				<button type="button" onclick="location.href='p4.html'">Génial!!! et passez au prochain page</button>
+			</div>
+		</div>
+		<script>
+			let popup = document.getElementById("popup");
+			
+			function openPopup(){
+				popup.classList.add("open-popup");
+			}
+			
+			function closePopup2(){
+				popup.classList.remove("open-popup");
+			}
+		</script>
+	</body>
+	
+</html>

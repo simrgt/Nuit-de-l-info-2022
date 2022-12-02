@@ -1,0 +1,22 @@
+#mouse {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 2px solid rgb(224, 8, 213);
+    transform: translate(-50%, -50%);
+
+
+    
+  } 
+
+  #squelette{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(224, 8, 213);
+    background-size: 100%;
+    border-radius: 50%;
+    background-color: none;
+  }
+
